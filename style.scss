@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    max-width: 1440px;
+    // max-width: 1440px;
     height: 1024px;
     background-image: url(img/backgr-phone.jpg);
     background-repeat: no-repeat;
@@ -51,6 +51,8 @@ body {
         font-style: normal;
         font-weight: 300;
         line-height: 32px;
+        display: flex;
+        gap: 8px;
     }
 
     &__link {
@@ -106,6 +108,14 @@ footer{
         background-position: center;
         background-size: cover;
         transition: all 0.5s;
+        align-items: flex-end;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 32px;
 
         :hover{
             transform: scale(1.02);
@@ -125,6 +135,14 @@ footer{
         background-position: center;
         background-size: cover;
         transition: all 0.5s;
+        align-items: flex-end;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 32px;
 
         :hover{
             transform: scale(1.02);
@@ -144,6 +162,14 @@ footer{
         background-position: center;
         background-size: cover;
         transition: all 0.5s;
+        align-items: flex-end;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 32px;
 
         :hover{
             transform: scale(1.02);
@@ -161,8 +187,8 @@ footer{
         font-style: normal;
         font-weight: 600;
         line-height: 32px;
-        padding-top: 240px;
-        padding-left: 32px;
+        // padding-top: 240px;
+        // padding-left: 32px;
         text-decoration: none;
     }
 }
