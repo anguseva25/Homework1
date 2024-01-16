@@ -7,6 +7,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.center {
+  padding-left: calc(50% - 600px);
+}
+
 .header {
   height: 1024px;
   background-image: url(img/backgr-phone.jpg);
@@ -21,7 +25,6 @@ body {
 
 .heading {
   display: flex;
-  padding-left: 120px;
   flex-direction: column;
 }
 .heading__header {
@@ -67,9 +70,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  height: 48px;
+  height: 36px;
   text-decoration: none;
-  padding-top: 20px;
+  padding-top: 12px;
   font-family: inherit;
 }
 
@@ -103,7 +106,7 @@ footer {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  padding-left: 32px;
+  padding-left: 20px;
 }
 .select-game__choice1 :hover {
   transform: scale(1.02);
@@ -127,7 +130,7 @@ footer {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  padding-left: 32px;
+  padding-left: 20px;
 }
 .select-game__choice2 :hover {
   transform: scale(1.02);
@@ -151,21 +154,8 @@ footer {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
-  padding-left: 32px;
+  padding-left: 20px;
 }
 .select-game__choice3 :hover {
   transform: scale(1.02);
-}
-.select-game__name {
-  display: flex;
-  max-width: 84px;
-  height: 31.639px;
-  flex-direction: column;
-  justify-content: center;
-  color: #FFF;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 32px;
-  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
