@@ -59,6 +59,9 @@ body {
   background-color: #191970;
   border-radius: 30px;
 }
+.heading__menu_mobile {
+  display: none;
+}
 
 .heading__link-link {
   display: flex;
@@ -191,6 +194,15 @@ footer {
     font-weight: 300;
     line-height: 22px;
     text-align: center;
+    display: none;
+  }
+  .heading__description-mob {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
   }
   .heading__link {
     max-width: 232px;
@@ -208,6 +220,9 @@ footer {
     transform: scale(1.02);
     background-color: #191970;
     border-radius: 30px;
+  }
+  .heading__menu_mobile {
+    display: flex;
   }
   .heading__link-link {
     display: flex;

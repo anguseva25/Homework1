@@ -13,7 +13,7 @@
             flex-direction: column;
             display: flex;
             align-items: center;
-            
+
         }
 
         &__main-title {
@@ -29,6 +29,18 @@
         }
 
         &__description {
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+            // display: grid;
+            // gap: 8px;
+            text-align: center;
+            display: none;
+        }
+        
+        &__description-mob {
             color: #FFF;
             font-size: 14px;
             font-style: normal;
@@ -58,6 +70,9 @@
                 background-color: #191970;
                 border-radius: 30px;
             }
+        }
+        &__menu_mobile{
+            display: flex;
         }
     }
 
